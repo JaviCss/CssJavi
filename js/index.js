@@ -1,4 +1,4 @@
-const token = "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";
+const token = "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git";
 const headers = {
   Authorization: `Token ${token}`,
   Accept:"application/vnd.github.mercy-preview+json"
