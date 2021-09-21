@@ -1,4 +1,4 @@
-const token = "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";
+const token = "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";
 const headers = {
   Authorization: `Token ${token}`,
   Accept:"application/vnd.github.mercy-preview+json"
@@ -22,6 +22,7 @@ async function getRepos() {
   })
     .then((e) => e.json())
     .then((data) => {
+      console.log(data)
       data.forEach((repo) => {
         const div1 = document.createElement("div");
         const div2 = document.createElement("div");
